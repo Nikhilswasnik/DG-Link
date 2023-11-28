@@ -162,11 +162,67 @@ header {
 
 }
 
-.home-img img {
+/* .home-img img {
 
   width: 100%;
 
+} */
+
+
+.home-img img {
+  
+  height: 70%;
+  width: 70%;
+  border-radius: 20px;
+  filter: grayscale(100%);
+  transition: 0.5s ease-in;
+  cursor: pointer;
+
 }
+
+.home-img img:hover{
+ transform: scale(1.2);
+ filter: grayscale(0);
+ zoom: 100%;
+}
+
+
+.about-img img {
+  
+  height: 70%;
+  width: 70%;
+  border-radius: 20px;
+  filter: grayscale(100%);
+  transition: 0.5s ease-in;
+  cursor: pointer;
+
+}
+
+.about-img img:hover{
+ transform: scale(1.2);
+ filter: grayscale(0);
+ zoom: 100%;
+}
+
+.box-img img {
+  
+  height: 70%;
+  width: 70%;
+  border-radius: 20px;
+  filter: grayscale(50%);
+  transition: 0.5s ease-in;
+  cursor: pointer;
+
+}
+
+.box-img img:hover{
+ transform: scale(1.2);
+ filter: grayscale(0);
+ zoom: 100%;
+}
+
+
+
 
 .home-text h1 {
 
@@ -655,3 +711,6 @@ header {
   }
 
 }
+
+
+
